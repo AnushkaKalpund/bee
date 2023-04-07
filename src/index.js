@@ -12,7 +12,7 @@ const port = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(cors({
-    origin:["http://localhost:3000", "https://mern-task-app.onrender.com"],
+    origin:["http://localhost:3000", "https://mern-task-app-njh6.onrender.com"],
 }));
 
 app.use("/auth", userRouter);
